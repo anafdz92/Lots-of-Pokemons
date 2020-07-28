@@ -1,2 +1,0 @@
-(this["webpackJsonpmy-react-app"]=this["webpackJsonpmy-react-app"]||[]).push([[0],{3:function(e,n,t){e.exports=t(8)},8:function(e,n,t){"use strict";t.r(n);var r=t(0),a=t.n(r),c=t(2),o=function(){return a.a.createElement("div",null,"Hola Mundo")};t.n(c).a.render(a.a.createElement(o,null),document.querySelector("#root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.13813862.chunk.js.map

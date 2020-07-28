@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PokeList from "./PokeList";
 //import React, { useState } from 'react'; POR SI PONES STATE
 
@@ -86,6 +86,7 @@ const pokeCards = [
 ];
 
 const App = () => {
+  const [item, setItem] = useState(pokeCards);
   return (
     <div>
       <PokeList pokeCards={pokeCards} />

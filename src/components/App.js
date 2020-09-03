@@ -4,6 +4,7 @@ import Pokecuquis from "../data/Pokecuquis";
 
 const App = () => {
   const [item, setItem] = useState(Pokecuquis);
+
   return (
     <div>
       <PokeList pokeCards={Pokecuquis} />

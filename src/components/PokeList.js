@@ -14,7 +14,7 @@ const PokeList = (props) => {
     );
   });
 
-  return <div>{items}</div>;
+  return <div className="pokemonList">{items}</div>;
 };
 
 export default PokeList;

@@ -1,8 +1,56 @@
+.html {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+// .bg {
+//   position: fixed;
+//   top: -50%;
+//   left: -50%;
+//   width: 200%;
+//   height: 200%;
+// }
+// .bg img {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   margin: auto;
+//   min-width: 50%;
+//   min-height: 50%;
+// }
+.title {
+  display: flex;
+  justify-content: center;
+}
+.titleImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 472px;
+}
+
+.mainList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pokemonList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
 .pokeOne {
   list-style-type: none;
   width: 200px;
   height: 250px;
-  background-color: red;
+  background-color: #63d5c0;
+  border: 5px solid #f0f021;
   margin: 20px;
   border-radius: 5px;
 }
@@ -18,4 +66,9 @@
 }
 .smallList {
   list-style-type: none;
+  font-family: "Grandstander", cursive;
+}
+
+.namePokemon {
+  font-family: "Grandstander", cursive;
 }

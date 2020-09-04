@@ -14,7 +14,7 @@ const Pokemon = (props) => {
       <div>
         <img src={props.url} alt="Pokemon" />
       </div>
-      <h2>{props.name}</h2>
+      <h2 className="namePokemon">{props.name}</h2>
       <ul className="listContainer">{pokeTypes}</ul>
     </article>
   );
